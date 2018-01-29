@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7098B0A201F871D006EF66A /* SFApp.m in Sources */ = {isa = PBXBuildFile; fileRef = B7098B09201F871D006EF66A /* SFApp.m */; };
 		B787895D201F3F1400B5ADF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B787895C201F3F1400B5ADF5 /* main.m */; };
+		B7878965201F401900B5ADF5 /* SFQuote.m in Sources */ = {isa = PBXBuildFile; fileRef = B7878964201F401900B5ADF5 /* SFQuote.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B7098B08201F871D006EF66A /* SFApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFApp.h; sourceTree = "<group>"; };
+		B7098B09201F871D006EF66A /* SFApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFApp.m; sourceTree = "<group>"; };
 		B7878959201F3F1400B5ADF5 /* SciFiQuotes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SciFiQuotes; sourceTree = BUILT_PRODUCTS_DIR; };
 		B787895C201F3F1400B5ADF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7878963201F401900B5ADF5 /* SFQuote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFQuote.h; sourceTree = "<group>"; };
+		B7878964201F401900B5ADF5 /* SFQuote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFQuote.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				B787895C201F3F1400B5ADF5 /* main.m */,
+				B7098B08201F871D006EF66A /* SFApp.h */,
+				B7098B09201F871D006EF66A /* SFApp.m */,
+				B7878963201F401900B5ADF5 /* SFQuote.h */,
+				B7878964201F401900B5ADF5 /* SFQuote.m */,
 			);
 			path = SciFiQuotes;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7098B0A201F871D006EF66A /* SFApp.m in Sources */,
 				B787895D201F3F1400B5ADF5 /* main.m in Sources */,
+				B7878965201F401900B5ADF5 /* SFQuote.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
